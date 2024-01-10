@@ -9,9 +9,8 @@
     align-self: center;
     text-decoration: none;
 }
-body {
-    background: red !important;
-}
+
+
 .col-lg-12 i {
     font-size: 2rem;
     cursor: pointer;
