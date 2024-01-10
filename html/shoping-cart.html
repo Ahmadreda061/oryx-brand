@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping-cart</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/shopping.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css.map">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,700;6..12,900&display=swap" >
+</head>
+<body>
+    <section class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h4>Shop</h4>
+                        <div class="breadcrumb__links">
+                            <a href="../index.php">Home</a>
+                            <span>></span>
+                            <a href="shop-user.html">Shop </a>
+                            <span> > Cart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="shoping-cart pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="shoping-cart__table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>PRODUCT</td>
+                                    <td>NAME</td>
+                                    <td>PRICE</td>
+                                </tr>
+                            </thead>
+                            <tbody class="items">
+                                <tr class="item">
+                                    <td>
+                                        <div class="prodect__cart__item__pic m-auto">
+                                            <img class="img-fluid " src="" alt="">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="prodect__cart__item__text"></div>
+                                    </td>
+                                    <td>
+                                        <div class="prodect__cart__price"></div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="shopping__cart__checkout">
+                        <h4>cart total</h4>
+                        <div class="total__price d-flex justify-content-between">Total Price: <span class="price"></span></div>
+                        <a href="../index.php"><button type="button"  class="btn btn-outline-dark fs-5 ">Checked Out</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <script src="../js/cart.js"></script>
+</body> 
+</html>

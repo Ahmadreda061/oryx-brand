@@ -1,0 +1,66 @@
+NAMES OF STUDENTS:
+    احمد رضا رضوان 2021901116   
+    وجد محمد الفقهاء2020803004 
+    2021804040	بكر احمد محمد الشرادقة  
+    مؤمن محمود حمود 2021804036
+			
+Web Page Report: Online Scarf Store ORYX BRAND
+
+1. Introduction:
+The online scarf store is a dynamic web application developed using HTML, CSS, JavaScript, and PHP. It provides a seamless user experience for browsing and purchasing scarves, along with user registration and profile management features.
+
+2. Architecture:
+
+    Frontend Technologies:
+
+    HTML: Responsible for structuring the web page.
+    CSS: Used for styling and layout design.
+    JavaScript: Enhances user interactivity and manages client-side functionality.
+    Backend Technology:
+
+    PHP: Manages server-side operations, interacts with the database, and handles user authentication.
+
+3. Web Pages:
+
+Home Page:
+
+    Displays a visually appealing layout showcasing featured scarves, promotions, and navigation links.
+    Utilizes JavaScript for dynamic content, such as image sliders and special offers.
+
+    Shop Page:
+
+        Lists all available scarves with details like images, prices, and descriptions.
+
+    Registration Page:
+
+        Allows users to create accounts by providing necessary information (name, email, password).
+        Utilizes PHP for server-side validation and securely stores user data in the database.
+    User Profile Page:
+
+        Provides a personalized space for registered users to view and update their information.
+        Utilizes PHP to fetch and display user data from the database.
+        Allows users to update personal details and change passwords.
+4. Database:
+
+    Utilizes a relational database (e.g., MySQL) to store user information securely.
+    Contains tables for user accounts and product details.
+    Ensures data integrity and security through proper SQL queries and validation.
+5. Security:
+
+    Implements secure practices to prevent common web vulnerabilities (e.g., SQL injection, cross-site scripting).
+    Utilizes HTTPS to encrypt data transmission between the server and clients.
+    Validates user inputs on both client and server sides to mitigate potential security risks.
+6. Responsive Design:
+
+    The web pages are designed to be responsive, ensuring a consistent and user-friendly experience across various devices (desktops, tablets, and smartphones).
+7. Testing:
+
+    Conducts rigorous testing to ensure the functionality, performance, and security of the online store.
+    Performs cross-browser testing to guarantee compatibility with major web browsers.
+8. Future Improvements:
+
+    Integration of additional features, such as user reviews, wishlists, and advanced search options.
+    Implementation of a secure payment gateway for online transactions.
+    Enhancements in the user interface for an even more visually appealing experience.
+9. Conclusion:
+    The online scarf store successfully combines frontend technologies (HTML, CSS, JavaScript) with backend technologies (PHP, MySQL) to create an interactive and secure platform for scarf enthusiasts. Continuous improvement and updates are planned to enhance the user experience and maintain the highest standards of security.

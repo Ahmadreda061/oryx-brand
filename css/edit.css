@@ -1,0 +1,111 @@
+@import url("all.css");
+
+body {
+    background-color: var(--bg) !important;
+    height: 100vh;
+    
+}
+/* .edit-profile {
+    
+} */
+.edit-profile .logo {
+    width: 200px;
+    margin: auto;
+}
+
+.edit-profile__header a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.edit-profile__header a:hover {
+    color: #fff;
+}
+
+
+.arrow {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 3px solid var(--danger);
+    transition: all .3s;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.arrow::before {
+    content: "Home";
+    position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -40px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--gray);
+    transition: all .3s;
+}
+
+.arrow:hover::before {
+    color: black;
+}
+
+.arrow:hover {
+    background-color: var(--danger);
+    
+}
+
+.arrow:hover > i {
+    color: white;
+}
+
+
+.arrow  i {
+    font-size: 2rem;
+}
+
+.edit-profile__card {
+    background-color: var(--light);
+    border-radius: 50px;
+
+}
+
+.edit-profile__card h1 {
+    font-size: 3rem;
+}
+
+.edit-profile__card form {
+    margin: 40px 0;
+}
+
+.edit-profile__card form label {
+    display: block;
+    font-size: 2rem;
+    width: fit-content;
+    margin: 10px 0;
+}
+
+.edit-profile__card form input {
+    border-color: var(--gray) ;
+    width: 90%;
+    padding: 0 10px;
+    font-size: 1.4rem;
+}
+.submits {
+    margin-top: 4rem !important;
+}
+
+.submits button {
+    border-width: 2px;
+    font-weight: 600;
+}
+
+.submits button:first-child:hover {
+    background-color: var(--green);
+    color: #fff;
+}
+
+.submits button:last-child:hover {
+    background-color: var(--danger);
+    color: #fff;
+}

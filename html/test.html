@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/edit.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css.map">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,700;6..12,900&display=swap" >
+</head>
+<body>
+    <!-- <script src="../js/nav-load.js"></script> -->
+    <header class="edit-profile p-3">
+        <div class="container">
+            <div class="arrow d-flex justify-content-center align-items-center">
+                <a href="../index.php" aria-label="go to home page"><i class="fa-solid fa-arrow-left-long"></i></a>
+            </div>
+            <div class="logo text-center">
+                <img class="img-fluid" src="../assets/images/logo-removebg-preview.png" alt="logo">
+            </div>
+            <div class="edit-profile__card mt-5 p-5">
+                <h1>Edit profile</h1>
+                <form action="edit.php" method="post">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-8 left">
+                            <label for="firstname">First Name</label>
+                            <input type="text" id="firstname" name="firstname" >
+                            <label for="lastname">Last Name</label>
+                            <input type="text" id="lastname" name="lastname" >
+                            <label for="age">Age</label>
+                            <input type="number" id="age" name="age">
+                            <label for="gender">Gender</label>
+                            <input type="text" id="gender" name="gender" readonly>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-8 right">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" readonly>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone_no" name="phone_no" pattern="\+962[0-9]{9}" title="Phone number must start with +962 and have 9 digits after it">
+                            
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    
+    <script src="https://kit.fontawesome.com/79feeb020c.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

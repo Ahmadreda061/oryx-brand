@@ -1,0 +1,81 @@
+@import url('all.css');
+
+.breadcrumb-option {
+    background: #f3f2ee;
+    padding: 40px 0;
+}
+
+.breadcrumb__links a {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.shoping-cart__table  table{
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table thead, table tbody td {
+    border-bottom: 2px solid #eee;
+}
+
+td,th {
+    padding: 1em 0;
+}
+
+table thead tr td {
+    font-size: 2.3rem;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.prodect__cart__item__pic {
+    max-width: 170px;
+    background-color: var(--bg);
+    border-radius:15px ;
+}
+
+.prodect__cart__item__text, .prodect__cart__price {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.shopping__cart__checkout {
+    padding: 1.4rem;
+    background-color: var(--bg);
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column ;
+}
+
+.shopping__cart__checkout h4 {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.shopping__cart__checkout .total__price  {
+    margin: 15px 0;
+    font-size: 1.3rem;
+}
+
+.shopping__cart__checkout .total__price .price  {
+    color: #ff7400;
+    /* font-weight: 600; */
+}
+
+.shopping__cart__checkout  button {
+    width: 100%;
+    font-weight: 600;
+}
+.shopping__cart__checkout a button:hover {
+    background-color: var(--orange) !important;
+    color: var( --light);
+    font-weight: 600 ;
+    border-color: var(--orange );
+}
+
